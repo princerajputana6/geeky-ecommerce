@@ -30,7 +30,7 @@ export default function ProductItem({ product, addToCartHandler }) {
         </CardActionArea>
       </NextLink>
       <CardActions>
-        <Typography>${product.price}</Typography>
+        <Typography>INR{product.price}</Typography>
         <Button
           size="small"
           color="primary"

@@ -87,7 +87,7 @@ function OrderHistoryScreen() {
                 <TableRow key={order._id}>
                   <TableCell>{order._id}</TableCell>
                   <TableCell>{order.createdAt}</TableCell>
-                  <TableCell>${order.totalPrice}</TableCell>
+                  <TableCell>INR{order.totalPrice}</TableCell>
                   <TableCell>
                     {order.isPaid ? `paid at ${order.paidAt}` : 'not paid'}
                   </TableCell>

@@ -182,7 +182,7 @@ function PlaceOrderScreen() {
                             <Typography>{item.quantity}</Typography>
                           </TableCell>
                           <TableCell align="right">
-                            <Typography>${item.price}</Typography>
+                            <Typography>INR{item.price}</Typography>
                           </TableCell>
                         </TableRow>
                       ))}
